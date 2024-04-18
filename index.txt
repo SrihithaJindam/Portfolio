@@ -2,8 +2,8 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Srihitha Jindam
+Srihitha Jindam
 Web developer
 
 Show Contacts
