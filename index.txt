@@ -54,7 +54,7 @@ Mobile apps
 Professional development of applications for iOS and Android.
 
 alt = Data Analysis
-I make high-quality photos of any category at a professional level.
+I provide high-quality  data visualization features for user engagement data-driven systems.
 
 
 ## testimonials
@@ -102,18 +102,18 @@ Guru Nanak Institutions Technical Campus
 2020 — 2024
 Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
 
-SR Digi High Scho0l
-2002 — 2004
+SR Junior College
+2018 — 2020
 Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
 
 Experience
 
 Data Science Intern
-2015 — Present
+ Jan 2024 — Present
 Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
 
  Associate Engineer
-2013 — 2015
+2013 —  Jan 2024
 • Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
 • Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
 • Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
