@@ -95,7 +95,9 @@ Education
 
 University school of the arts
 2007 — 2008
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
+• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
+• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
 
 New york academy of art
 2006 — 2007
@@ -111,13 +113,17 @@ Data Science Intern
 2015 — Present
 Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
 
-Art director
+ Associate Engineer
 2013 — 2015
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
+• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
+• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
 
-Web designer
+ Android Facilitator
 2010 — 2013
-Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
+• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
+• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
 
 My skills
 
