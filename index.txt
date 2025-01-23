@@ -53,8 +53,7 @@ alt = mobile app icon
 Mobile apps
 Professional development of applications for iOS and Android.
 
-alt = camera icon
-Photography
+alt = Data Analysis
 I make high-quality photos of any category at a professional level.
 
 
@@ -93,14 +92,14 @@ Resume
 
 Education
 
-University school of the arts
-2007 — 2008
+Brandenburg University of Technology
+2024 — Present
 • Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
 • Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
 • Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
 
-New york academy of art
-2006 — 2007
+Guru Nanak Institutions Technical Campus
+2020 — 2024
 Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
 
 High school of art and design
