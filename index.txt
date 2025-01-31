@@ -57,9 +57,9 @@ alt = Data Analysis
 I provide high-quality  data visualization features for user engagement data-driven systems.
 
 
-## testimonials
+## Projects
 
-Testimonials
+Projects
 
 alt = Daniel lewis
 Daniel lewis
