@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="ragBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131f" />
+      <stop offset="100%" stop-color="#182234" />
+    </linearGradient>
+    <linearGradient id="ragGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb703" />
+      <stop offset="100%" stop-color="#fb8500" />
+    </linearGradient>
+    <linearGradient id="ragCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="600" height="380" fill="url(#ragBg)"/>
+  
+  <g stroke="rgba(255,255,255,0.05)" stroke-width="1">
+    <line x1="0" y1="70" x2="600" y2="70"/>
+    <line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="230" x2="600" y2="230"/>
+    <line x1="0" y1="310" x2="600" y2="310"/>
+    <line x1="120" y1="0" x2="120" y2="380"/>
+    <line x1="260" y1="0" x2="260" y2="380"/>
+    <line x1="420" y1="0" x2="420" y2="380"/>
+  </g>
+  
+  <rect x="30" y="25" width="130" height="30" rx="15" fill="rgba(255, 183, 3, 0.12)" stroke="rgba(255, 183, 3, 0.4)" stroke-width="1"/>
+  <text x="95" y="45" fill="#ffb703" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">GENAI &amp; RAG</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">LLM + Vector DB</text>
+
+  <!-- Docs Store -->
+  <rect x="40" y="100" width="120" height="150" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.12)" stroke-width="1.5"/>
+  <text x="100" y="130" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="13" font-weight="600" text-anchor="middle">Knowledge Base</text>
+  <rect x="55" y="150" width="90" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+  <rect x="55" y="165" width="75" height="7" rx="3" fill="rgba(255,255,255,0.15)"/>
+  <rect x="55" y="180" width="85" height="7" rx="3" fill="rgba(255,255,255,0.15)"/>
+  <rect x="55" y="195" width="60" height="7" rx="3" fill="rgba(255,255,255,0.15)"/>
+  <rect x="55" y="210" width="75" height="7" rx="3" fill="url(#ragGold)"/>
+
+  <!-- Flow Arrow -->
+  <path d="M165 175 L 225 175" stroke="#ffb703" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <polygon points="225,170 235,175 225,180" fill="#ffb703"/>
+
+  <!-- Vector DB Node -->
+  <circle cx="290" cy="175" r="50" fill="rgba(0, 242, 254, 0.08)" stroke="url(#ragCyan)" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="290" cy="175" r="32" fill="rgba(0, 242, 254, 0.15)"/>
+  <text x="290" y="170" fill="#00f2fe" font-family="'Poppins', sans-serif" font-size="12" font-weight="600" text-anchor="middle">FAISS /</text>
+  <text x="290" y="188" fill="#00f2fe" font-family="'Poppins', sans-serif" font-size="11" font-weight="500" text-anchor="middle">Embeddings</text>
+
+  <!-- Flow Arrow 2 -->
+  <path d="M345 175 L 405 175" stroke="#00f2fe" stroke-width="2.5" stroke-dasharray="5 4"/>
+  <polygon points="405,170 415,175 405,180" fill="#00f2fe"/>
+
+  <!-- LLM Synthesis Engine -->
+  <rect x="420" y="95" width="145" height="160" rx="16" fill="rgba(251, 133, 0, 0.08)" stroke="url(#ragGold)" stroke-width="1.8"/>
+  <text x="492" y="125" fill="#ffb703" font-family="'Poppins', sans-serif" font-size="13" font-weight="600" text-anchor="middle">LLM Synthesis</text>
+  
+  <rect x="435" y="145" width="115" height="30" rx="6" fill="rgba(255,255,255,0.06)"/>
+  <text x="445" y="164" fill="#8ecae6" font-family="'Poppins', sans-serif" font-size="10">Query + Chunks</text>
+  
+  <rect x="435" y="185" width="115" height="50" rx="6" fill="rgba(255, 183, 3, 0.15)"/>
+  <text x="445" y="205" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="10" font-weight="600">Precise Context</text>
+  <text x="445" y="222" fill="#a8dadc" font-family="'Poppins', sans-serif" font-size="9">&lt; 150ms Latency</text>
+
+  <!-- Tech tags -->
+  <g transform="translate(40, 310)">
+    <rect x="0" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="42" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">LangChain</text>
+    
+    <rect x="95" y="0" width="70" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="130" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Python</text>
+
+    <rect x="175" y="0" width="95" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="222" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Vector Search</text>
+
+    <rect x="280" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="322" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">OpenAI API</text>
+  </g>
+</svg>

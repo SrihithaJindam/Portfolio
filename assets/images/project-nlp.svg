@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="nlpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f142b" />
+      <stop offset="100%" stop-color="#2a1638" />
+    </linearGradient>
+    <linearGradient id="nlpCoral" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff758c" />
+      <stop offset="100%" stop-color="#ff7eb3" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#nlpBg)"/>
+
+  <rect x="30" y="25" width="165" height="30" rx="15" fill="rgba(255, 117, 140, 0.15)" stroke="rgba(255, 117, 140, 0.4)" stroke-width="1"/>
+  <text x="112" y="45" fill="#ff758c" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">NLP &amp; SENTIMENT</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">Text Classification</text>
+
+  <!-- Sentiment Analysis Bar -->
+  <g transform="translate(50, 95)">
+    <rect x="0" y="0" width="500" height="85" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="25" y="30" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="12" font-weight="600">Consumer Feedback Polarity Distribution</text>
+    
+    <!-- Multi-color split bar -->
+    <g transform="translate(25, 45)">
+      <rect x="0" y="0" width="280" height="18" rx="4" fill="#00b894"/>
+      <rect x="285" y="0" width="100" height="18" rx="4" fill="#fdcb6e"/>
+      <rect x="390" y="0" width="60" height="18" rx="4" fill="#d63031"/>
+    </g>
+    <text x="25" y="76" fill="#00b894" font-family="'Poppins', sans-serif" font-size="10" font-weight="600">62% Positive</text>
+    <text x="310" y="76" fill="#fdcb6e" font-family="'Poppins', sans-serif" font-size="10" font-weight="600">24% Neutral</text>
+    <text x="415" y="76" fill="#ff7675" font-family="'Poppins', sans-serif" font-size="10" font-weight="600">14% Negative</text>
+  </g>
+
+  <!-- Extracted Emotion Chips -->
+  <g transform="translate(50, 205)">
+    <rect x="0" y="0" width="115" height="34" rx="8" fill="rgba(0, 184, 148, 0.15)" stroke="#00b894" stroke-width="1"/>
+    <text x="57" y="22" fill="#55efc4" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">★ Satisfaction (94%)</text>
+
+    <rect x="130" y="0" width="105" height="34" rx="8" fill="rgba(255, 117, 140, 0.15)" stroke="#ff758c" stroke-width="1"/>
+    <text x="182" y="22" fill="#ff758c" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Quality Fit (88%)</text>
+
+    <rect x="250" y="0" width="110" height="34" rx="8" fill="rgba(253, 203, 110, 0.15)" stroke="#fdcb6e" stroke-width="1"/>
+    <text x="305" y="22" fill="#ffeaa7" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Delivery Speed</text>
+
+    <rect x="375" y="0" width="125" height="34" rx="8" fill="rgba(108, 92, 231, 0.15)" stroke="#a29bfe" stroke-width="1"/>
+    <text x="437" y="22" fill="#a29bfe" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">TF-IDF Vectorized</text>
+  </g>
+
+  <!-- Tech tags -->
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="37" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">NLP</text>
+    
+    <rect x="85" y="0" width="135" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="152" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Sentiment Analysis</text>
+
+    <rect x="230" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="267" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Python</text>
+
+    <rect x="315" y="0" width="95" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="362" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Scikit-Learn</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mapBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d131f" />
+      <stop offset="100%" stop-color="#141c2c" />
+    </linearGradient>
+    <linearGradient id="mapGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffb703" />
+      <stop offset="100%" stop-color="#fb8500" />
+    </linearGradient>
+    <filter id="pinGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect width="800" height="350" fill="url(#mapBg)"/>
+
+  <!-- City street grid lines simulation -->
+  <g stroke="rgba(255, 255, 255, 0.04)" stroke-width="1.5">
+    <path d="M0 60 Q 200 80 400 50 T 800 70" fill="none"/>
+    <path d="M0 140 Q 300 120 500 160 T 800 130" fill="none"/>
+    <path d="M0 220 Q 250 240 550 200 T 800 230" fill="none"/>
+    <path d="M0 290 Q 350 270 600 310 T 800 280" fill="none"/>
+
+    <path d="M120 0 Q 150 180 130 350" fill="none"/>
+    <path d="M260 0 Q 240 160 270 350" fill="none"/>
+    <path d="M420 0 Q 400 200 430 350" fill="none"/>
+    <path d="M580 0 Q 610 150 590 350" fill="none"/>
+    <path d="M720 0 Q 700 190 730 350" fill="none"/>
+  </g>
+
+  <!-- Spree river curve -->
+  <path d="M 0 180 Q 180 210 320 170 T 520 160 T 800 190" fill="none" stroke="rgba(0, 180, 216, 0.2)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 0 180 Q 180 210 320 170 T 520 160 T 800 190" fill="none" stroke="rgba(0, 242, 254, 0.4)" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Radar circles centered at Berlin Mitte -->
+  <circle cx="420" cy="165" r="50" fill="none" stroke="rgba(255, 183, 3, 0.15)" stroke-width="1" stroke-dasharray="4 4"/>
+  <circle cx="420" cy="165" r="100" fill="none" stroke="rgba(255, 183, 3, 0.1)" stroke-width="1" stroke-dasharray="6 6"/>
+  <circle cx="420" cy="165" r="160" fill="none" stroke="rgba(255, 183, 3, 0.05)" stroke-width="1"/>
+
+  <!-- Pulsing location Pin -->
+  <circle cx="420" cy="165" r="18" fill="rgba(255, 183, 3, 0.25)" filter="url(#pinGlow)"/>
+  <circle cx="420" cy="165" r="8" fill="#ffb703"/>
+  <circle cx="420" cy="165" r="3" fill="#ffffff"/>
+
+  <!-- Floating Pin Label -->
+  <g transform="translate(420, 110)">
+    <rect x="-85" y="-14" width="170" height="28" rx="14" fill="rgba(13, 19, 31, 0.9)" stroke="rgba(255, 183, 3, 0.5)" stroke-width="1.2"/>
+    <circle cx="-68" cy="0" r="4" fill="#27c93f"/>
+    <text x="5" y="4" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">Berlin, Germany</text>
+  </g>
+
+  <!-- Telemetry Badge (Bottom Left) -->
+  <g transform="translate(30, 275)">
+    <rect x="0" y="0" width="240" height="48" rx="10" fill="rgba(0, 0, 0, 0.55)" stroke="rgba(255, 255, 255, 0.1)" stroke-width="1"/>
+    <text x="16" y="20" fill="#ffb703" font-family="'Poppins', sans-serif" font-size="11" font-weight="600">52.5200° N, 13.4050° E</text>
+    <text x="16" y="36" fill="#a0aec0" font-family="'Poppins', sans-serif" font-size="10">50Hertz HQ • BTU Cottbus-Senftenberg</text>
+  </g>
+
+  <!-- Status Chip (Top Right) -->
+  <g transform="translate(620, 30)">
+    <rect x="0" y="0" width="150" height="28" rx="14" fill="rgba(39, 201, 63, 0.15)" stroke="rgba(39, 201, 63, 0.4)" stroke-width="1"/>
+    <circle cx="16" cy="14" r="4" fill="#27c93f"/>
+    <text x="80" y="18" fill="#55efc4" font-family="'Poppins', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Active in Berlin</text>
+  </g>
+</svg>
+

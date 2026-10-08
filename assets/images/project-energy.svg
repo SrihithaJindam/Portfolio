@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="eneBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1a24" />
+      <stop offset="100%" stop-color="#142c3d" />
+    </linearGradient>
+    <linearGradient id="eneAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd166" />
+      <stop offset="100%" stop-color="#f77f00" />
+    </linearGradient>
+    <linearGradient id="eneTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06d6a0" />
+      <stop offset="100%" stop-color="#118ab2" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#eneBg)"/>
+
+  <g stroke="rgba(255, 209, 102, 0.06)" stroke-width="1">
+    <line x1="0" y1="70" x2="600" y2="70"/>
+    <line x1="0" y1="140" x2="600" y2="140"/>
+    <line x1="0" y1="210" x2="600" y2="210"/>
+    <line x1="0" y1="280" x2="600" y2="280"/>
+  </g>
+
+  <rect x="30" y="25" width="165" height="30" rx="15" fill="rgba(255, 209, 102, 0.12)" stroke="rgba(255, 209, 102, 0.4)" stroke-width="1"/>
+  <text x="112" y="45" fill="#ffd166" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">ENERGY ANALYTICS</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">50Hertz Transmission</text>
+
+  <!-- Metric dashboard cards -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="160" height="85" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="20" y="30" fill="#a0aec0" font-family="'Poppins', sans-serif" font-size="11">European Grid Load</text>
+    <text x="20" y="60" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="22" font-weight="600">48.2 GW</text>
+    <text x="115" y="60" fill="#06d6a0" font-family="'Poppins', sans-serif" font-size="11">+3.4%</text>
+
+    <rect x="180" y="0" width="160" height="85" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="200" y="30" fill="#a0aec0" font-family="'Poppins', sans-serif" font-size="11">Renewable Share</text>
+    <text x="200" y="60" fill="#06d6a0" font-family="'Poppins', sans-serif" font-size="22" font-weight="600">62.8%</text>
+    <text x="290" y="60" fill="#06d6a0" font-family="'Poppins', sans-serif" font-size="11">Solar/Wind</text>
+
+    <rect x="360" y="0" width="160" height="85" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="380" y="30" fill="#a0aec0" font-family="'Poppins', sans-serif" font-size="11">Market Clearing Price</text>
+    <text x="380" y="60" fill="#ffd166" font-family="'Poppins', sans-serif" font-size="22" font-weight="600">€ 74.5/MWh</text>
+  </g>
+
+  <!-- Interactive chart simulation -->
+  <g transform="translate(40, 185)">
+    <rect x="0" y="0" width="520" height="110" rx="12" fill="rgba(0,0,0,0.25)" stroke="rgba(255,255,255,0.08)"/>
+    <!-- Area Chart fill -->
+    <path d="M 20 85 Q 80 40 140 60 T 260 25 T 380 50 T 500 20 L 500 95 L 20 95 Z" fill="rgba(6, 214, 160, 0.15)"/>
+    <path d="M 20 85 Q 80 40 140 60 T 260 25 T 380 50 T 500 20" fill="none" stroke="url(#eneTeal)" stroke-width="3"/>
+    
+    <!-- Second load line -->
+    <path d="M 20 60 Q 80 70 140 45 T 260 55 T 380 30 T 500 40" fill="none" stroke="url(#eneAmber)" stroke-width="2.5" stroke-dasharray="6 4"/>
+  </g>
+
+  <!-- Tech tags -->
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="37" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Python</text>
+    
+    <rect x="85" y="0" width="130" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="150" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Statistical Modeling</text>
+
+    <rect x="225" y="0" width="115" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="282" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Data Engineering</text>
+
+    <rect x="350" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="387" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Tableau</text>
+  </g>
+</svg>

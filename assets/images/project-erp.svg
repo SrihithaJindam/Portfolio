@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="erpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14142b" />
+      <stop offset="100%" stop-color="#241b35" />
+    </linearGradient>
+    <linearGradient id="erpPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a066ff" />
+      <stop offset="100%" stop-color="#6c5ce7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#erpBg)"/>
+
+  <rect x="30" y="25" width="150" height="30" rx="15" fill="rgba(160, 102, 255, 0.15)" stroke="rgba(160, 102, 255, 0.4)" stroke-width="1"/>
+  <text x="105" y="45" fill="#a066ff" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">FULL-STACK ERP</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">Django + PostgreSQL</text>
+
+  <!-- Browser window container -->
+  <g transform="translate(40, 80)">
+    <rect x="0" y="0" width="520" height="215" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.1)"/>
+    <circle cx="25" cy="18" r="5" fill="#ff5f56"/>
+    <circle cx="42" cy="18" r="5" fill="#ffbd2e"/>
+    <circle cx="59" cy="18" r="5" fill="#27c93f"/>
+    <line x1="0" y1="35" x2="520" y2="35" stroke="rgba(255,255,255,0.08)"/>
+
+    <!-- Left menu sidebar inside browser -->
+    <rect x="15" y="48" width="95" height="150" rx="8" fill="rgba(255,255,255,0.03)"/>
+    <rect x="25" y="60" width="75" height="14" rx="4" fill="url(#erpPurple)"/>
+    <rect x="25" y="85" width="65" height="8" rx="3" fill="rgba(255,255,255,0.2)"/>
+    <rect x="25" y="105" width="55" height="8" rx="3" fill="rgba(255,255,255,0.2)"/>
+    <rect x="25" y="125" width="70" height="8" rx="3" fill="rgba(255,255,255,0.2)"/>
+    <rect x="25" y="145" width="60" height="8" rx="3" fill="rgba(255,255,255,0.2)"/>
+
+    <!-- Content panels -->
+    <rect x="125" y="48" width="180" height="70" rx="8" fill="rgba(160, 102, 255, 0.1)"/>
+    <text x="140" y="70" fill="#a066ff" font-family="'Poppins', sans-serif" font-size="11" font-weight="600">Academic Records</text>
+    <text x="140" y="95" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="18" font-weight="600">30%+ Efficiency</text>
+
+    <rect x="320" y="48" width="185" height="70" rx="8" fill="rgba(255,255,255,0.05)"/>
+    <text x="335" y="70" fill="#00d2d3" font-family="'Poppins', sans-serif" font-size="11" font-weight="600">Administration &amp; Enquiries</text>
+    <text x="335" y="95" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="18" font-weight="600">Zero Redundancy</text>
+
+    <!-- Table mockup -->
+    <rect x="125" y="130" width="380" height="68" rx="8" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.05)"/>
+    <line x1="125" y1="152" x2="505" y2="152" stroke="rgba(255,255,255,0.05)"/>
+    <rect x="140" y="138" width="80" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+    <rect x="250" y="138" width="60" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+    <rect x="340" y="138" width="70" height="6" rx="3" fill="rgba(255,255,255,0.3)"/>
+    
+    <rect x="140" y="168" width="70" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    <rect x="250" y="168" width="50" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+    <rect x="340" y="168" width="60" height="6" rx="3" fill="rgba(255,255,255,0.15)"/>
+  </g>
+
+  <!-- Tech tags -->
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="37" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Python</text>
+    
+    <rect x="85" y="0" width="75" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="122" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Django</text>
+
+    <rect x="170" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="212" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">PostgreSQL</text>
+
+    <rect x="265" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="307" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">REST APIs</text>
+  </g>
+</svg>

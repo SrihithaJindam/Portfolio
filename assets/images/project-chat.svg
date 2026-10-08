@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="chatBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111927" />
+      <stop offset="100%" stop-color="#1a273e" />
+    </linearGradient>
+    <linearGradient id="chatBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c6ff" />
+      <stop offset="100%" stop-color="#0072ff" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#chatBg)"/>
+
+  <rect x="30" y="25" width="165" height="30" rx="15" fill="rgba(0, 198, 255, 0.15)" stroke="rgba(0, 198, 255, 0.4)" stroke-width="1"/>
+  <text x="112" y="45" fill="#00c6ff" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">REAL-TIME CHAT</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">Firebase &amp; Firestore</text>
+
+  <!-- Chat conversation UI simulation -->
+  <g transform="translate(60, 85)">
+    <!-- Bubble 1: Incoming -->
+    <rect x="0" y="0" width="280" height="48" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="22" fill="#e0e0e0" font-family="'Poppins', sans-serif" font-size="11">Hey! Is the live channel synchronized?</text>
+    <text x="20" y="38" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="9">10:42 AM • User A</text>
+
+    <!-- Bubble 2: Outgoing -->
+    <rect x="180" y="60" width="300" height="48" rx="12" fill="url(#chatBlue)"/>
+    <text x="200" y="82" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="11" font-weight="500">Yes! Cloud Firestore latency is &lt; 20ms.</text>
+    <text x="200" y="98" fill="rgba(255,255,255,0.7)" font-family="'Poppins', sans-serif" font-size="9">10:42 AM • Delivered</text>
+
+    <!-- Bubble 3: Incoming -->
+    <rect x="0" y="120" width="250" height="48" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="142" fill="#e0e0e0" font-family="'Poppins', sans-serif" font-size="11">Awesome, zero server setup needed!</text>
+    <text x="20" y="158" fill="rgba(255,255,255,0.3)" font-family="'Poppins', sans-serif" font-size="9">10:43 AM • User A</text>
+
+    <!-- Status pill -->
+    <g transform="translate(260, 130)">
+      <circle cx="10" cy="10" r="5" fill="#00e676"/>
+      <text x="24" y="14" fill="#00e676" font-family="'Poppins', sans-serif" font-size="10" font-weight="600">WebSocket Live Sync</text>
+    </g>
+  </g>
+
+  <!-- Tech tags -->
+  <g transform="translate(40, 320)">
+    <rect x="0" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="42" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Firebase</text>
+    
+    <rect x="95" y="0" width="80" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="135" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Firestore</text>
+
+    <rect x="185" y="0" width="90" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="230" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">JavaScript</text>
+
+    <rect x="285" y="0" width="85" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="327" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Serverless</text>
+  </g>
+</svg>

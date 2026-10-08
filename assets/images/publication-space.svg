@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" width="600" height="380">
+  <defs>
+    <linearGradient id="spcBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050814" />
+      <stop offset="100%" stop-color="#12183a" />
+    </linearGradient>
+    <linearGradient id="spcPurple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7928ca" />
+      <stop offset="100%" stop-color="#ff0080" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="380" fill="url(#spcBg)"/>
+
+  <!-- Stars background -->
+  <circle cx="50" cy="50" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="120" cy="90" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="200" cy="40" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="340" cy="70" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="480" cy="50" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="550" cy="110" r="1" fill="#fff" opacity="0.3"/>
+
+  <rect x="30" y="25" width="175" height="30" rx="15" fill="rgba(121, 40, 202, 0.2)" stroke="rgba(255, 0, 128, 0.4)" stroke-width="1"/>
+  <text x="117" y="45" fill="#ff0080" font-family="'Poppins', sans-serif" font-size="11" font-weight="600" text-anchor="middle">PEER-REVIEWED PAPER</text>
+
+  <text x="560" y="45" fill="rgba(255,255,255,0.4)" font-family="'Poppins', sans-serif" font-size="12" text-anchor="end">IJRASET Journal</text>
+
+  <!-- Orbital Object & Attention Heatmap -->
+  <g transform="translate(80, 75)">
+    <!-- Planet/Orbital ring -->
+    <ellipse cx="220" cy="65" rx="180" ry="40" fill="none" stroke="rgba(255, 0, 128, 0.3)" stroke-width="2" transform="rotate(-15 220 65)"/>
+    <!-- Deep Learning Object Target Box -->
+    <rect x="180" y="30" width="80" height="70" rx="6" fill="rgba(121, 40, 202, 0.25)" stroke="#ff0080" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <circle cx="220" cy="65" r="15" fill="#ffffff" opacity="0.9"/>
+    <text x="220" y="115" fill="#ff0080" font-family="'Poppins', sans-serif" font-size="10" font-weight="600" text-anchor="middle">Target Detected: 98.4%</text>
+  </g>
+
+  <!-- Paper Title Badge -->
+  <g transform="translate(50, 190)">
+    <rect x="0" y="0" width="500" height="95" rx="12" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.1)"/>
+    <text x="20" y="30" fill="#ffffff" font-family="'Poppins', sans-serif" font-size="13" font-weight="600">Space Object Recognition: Multi-Modal Fusion &amp; CoAtNets</text>
+    <text x="20" y="52" fill="#a0aec0" font-family="'Poppins', sans-serif" font-size="11">Multi-modal deep learning combining Convolution &amp; Self-Attention architectures</text>
+    <text x="20" y="74" fill="#a29bfe" font-family="'Poppins', sans-serif" font-size="10" font-weight="500">IJRASET Official Publication</text>
+  </g>
+
+  <!-- Tags -->
+  <g transform="translate(50, 320)">
+    <rect x="0" y="0" width="130" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="65" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Multi-Modal Fusion</text>
+    
+    <rect x="140" y="0" width="110" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="195" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">CoAtNets</text>
+
+    <rect x="260" y="0" width="120" height="26" rx="6" fill="rgba(255,255,255,0.06)"/>
+    <text x="320" y="17" fill="#ccc" font-family="'Poppins', sans-serif" font-size="11" text-anchor="middle">Deep Learning</text>
+  </g>
+</svg>
