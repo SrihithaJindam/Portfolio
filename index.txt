@@ -1,245 +1,104 @@
-vCard - Personal Portfolio
+Srihitha Jindam — Personal Portfolio
 
 # sidebar
-
-alt = Srihitha Jindam
 Srihitha Jindam
-Web developer
+AI & Data Science Engineer
+MS in AI @ BTU Cottbus • Working Student @ 50Hertz
+Available for AI & Data Roles
 
-Show Contacts
-
-Email
-richard@example.com
-
-Phone
-+1 (213) 352-2795
-
-Birthday
-June 23, 1982
-
-Location
-Sacramento, California, USA
+Email: srihithajindam1402@gmail.com
+Phone: +49 176 26053640
+Location: Berlin, Germany
+LinkedIn: https://www.linkedin.com/in/srihithajindam/
+Languages: English, German, Telugu, Hindi
+Resume: Srihitha_CV.pdf
 
 # navbar
-
 About
 Resume
-Portfolio
-Blog
+Projects
+Research
 Contact
 
 # about
-
 About me
+I am an AI & Data Science Engineer currently pursuing my Master of Science in Artificial Intelligence at Brandenburg University of Technology (BTU Cottbus-Senftenberg) in Germany, and working as a Working Student at 50Hertz Transmission GmbH in Berlin.
 
-I'm Data Science Intern and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+My work centers around developing production-grade GenAI systems, conversational AI chatbots, and quantitative analytics suites for the European electricity market. Previously, I earned my Bachelor of Technology in Computer Science & Engineering (Data Science) with an outstanding CGPA of 8.96, and held roles as a Data Science Intern at MakeRoot and Associate Engineer at IK Technologies.
 
-My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+With two peer-reviewed journal publications in deep learning and terrain feature extraction, I combine rigorous scientific methodology with practical software engineering. I am deeply interested in Retrieval-Augmented Generation (RAG), statistical anomaly detection, and building intelligent data-driven systems that deliver real-world business impact.
 
+Key Metrics:
+- 8.96 B.Tech CGPA (First Class with Distinction)
+- 2 Peer-Reviewed Journal Publications
+- 5+ AI & Data Systems Built
+- 3+ Tech Leadership Roles (IEEE, GDSC, Feliks)
 
-## service
+What I'm Doing:
+- Generative AI & LLMs: Retrieval-Augmented Generation (RAG) pipelines, enterprise AI Chatbots, vector search with FAISS/ChromaDB.
+- Machine Learning & Deep Learning: Anomaly detection with Autoencoders and k-NN, sentiment analysis with NLP, neural vision classifiers.
+- Market Intelligence & Analytics: Python-based analytics suites for European power transmission data, statistical modeling, Tableau & Power BI.
+- Cloud, MLOps & Full-Stack: Azure DevOps CI/CD pipelines, SQL Server & PostgreSQL data engineering, Django web applications.
 
-What i'm doing
-
-alt = design icon
-Web design
-The most modern and high-quality design made at a professional level.
-
-alt = Web development icon
-Web development
-High-quality development of sites at the professional level.
-
-alt = mobile app icon
-Mobile apps
-Professional development of applications for iOS and Android.
-
-alt = Data Analysis
-I provide high-quality  data visualization features for user engagement data-driven systems.
-
-
-## Projects
-
-Projects
-
-alt = Daniel lewis
-Daniel lewis
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Jessica miller
-Jessica miller
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Emily evans
-Emily evans
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-alt = Henry william
-Henry william
-Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-
-
-## clients
-
-Clients
-
-alt = client logo
-
-
+Leadership:
+- IEEE Student Branch — Technical Head & Research Scholar
+- Google DSC — Android Facilitator
 
 # resume
+Education:
+- MS in Artificial Intelligence (Oct 2024 — Present)
+  Brandenburgische Technische Universität Cottbus-Senftenberg (BTU) | Cottbus / Berlin, Germany
+- B.Tech in Computer Science and Engineering — Data Science (Nov 2020 — May 2024)
+  Guru Nanak Institutions Technical Campus | Hyderabad, India | CGPA: 8.96 / 10
 
-Resume
+Professional Experience:
+- Working Student — AI & Data Analytics (Apr 2025 — Present)
+  50Hertz Transmission GmbH | Berlin, Germany
+  • Providing critical market intelligence through ad-hoc data requests and developing data visualizations.
+  • Driving integration of new AI frameworks and developing conversational AI Chatbots.
+  • Developing core Python-based Analytics Suite for European electricity market data.
+- Data Science Intern (Jan 2024 — Apr 2024)
+  MakeRoot | Remote
+  • Developed financial reporting tools using Python and SQL.
+  • Led design of advanced data visualization features for an enquiry management system.
+  • Tableau in-depth data analysis resulting in a 20% increase in user engagement.
+- Associate Engineer (Aug 2023 — Dec 2023)
+  IK TECHNOLOGIES | Hyderabad, India
+  • Implemented Azure DevOps CI/CD pipelines as part of .NET development team.
+  • Maintained SQL Server data systems, increasing retrieval efficiency by 50%.
+  • Built robust RESTful APIs for cross-platform integration.
 
-Education
+Technical Skills:
+- AI & Data Science: Python, TensorFlow, PyTorch, Scikit-Learn, Deep Learning, RAG, LLMs, SQL, R, Tableau, Power BI
+- Cloud & DevOps: AWS, Google Cloud Platform (GCP), Azure DevOps, CI/CD, Azure SQL, Docker, Firebase
+- Full-Stack: Django, ReactJS, NodeJS, JavaScript, HTML5/CSS3, REST APIs, MongoDB, PostgreSQL
+- Tools: Git, GitHub, SQL Server Management Studio, Oracle DBMS, Jupyter, VS Code
 
-Brandenburg University of Technology
-2024 — Present
-• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
-• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
-• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
+Certifications & Honors:
+- IBM Data Science Professional (Coursera)
+- Elite + Silver NPTEL
+- Academic Excellence Award
+- Android Compose Camp Facilitator (Google DSC)
+- Google Cloud Induction Lead
+- Unstop Lead Igniter
+- ML Study Jams Project Co-Ordinator
 
-Guru Nanak Institutions Technical Campus
-2020 — 2024
-Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+# projects
+1. Intelligent Knowledge Retrieval System (RAG & LLMs) — GenAI & LLMs
+2. Meteorological Anomaly Detection (Autoencoders & k-NN) — Machine Learning
+3. European Electricity Market Analytics Suite (50Hertz) — Data Analytics
+4. Comprehensive College ERP System (Python & Django) — Full-Stack
+5. E-Commerce Sentiment Analysis (NLP) — Machine Learning
+6. Real-Time Collaborative Messaging Platform (Firebase & Firestore) — Full-Stack
 
-SR Junior College
-2018 — 2020
-Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
-
-Experience
-
-Data Science Intern
- Jan 2024 — Present
-Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
-
- Associate Engineer
-2013 —  Jan 2024
-• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
-• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
-• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
-
- Android Facilitator
-2010 — 2013
-• Developed financial reporting tools using Python and SQL, enhancing tracking and analysis capabilities for educational institutions. 
-• Led the design of advanced data visualization features for an enquiry management system, improving data management and institutional understanding. 
-• Worked on Tableau for in-depth data analysis, contributing to a 20% increase in user engagement by enabling data-driven decisions.
-
-My skills
-
-Web design
-80%
-Graphic design
-70%
-Analytics
-90%
-Cloud Technologies
-50%
-
-
-
-# portfolio
-
-Portfolio
-
-All
-Web design
-Applications
-Web development
-
-Select category
-All
-Web design
-Applications
-Web development
-
-alt = finance
-Finance
-Web development
-
-alt = orizon
-Orizon
-Web development
-
-alt = fundo
-Fundo
-Web design
-
-alt = brawlhalla
-Brawlhalla
-Applications
-
-alt = dsm.
-DSM.
-Web design
-
-alt = metaspark
-MetaSpark
-Web design
-
-alt = summary
-Summary
-Web development
-
-alt = task manager
-Task Manager
-Applications
-
-alt = arrival
-Arrival
-Web development
-
-
-
-# blog
-
-Blog
-
-alt = Design conferences in 2022
-Design
-Fab 23, 2022
-Design conferences in 2022
-Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-
-alt = Best fonts every designer
-Design
-Fab 23, 2022
-Best fonts every designer
-Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-
-alt = Design digest #80
-Design
-Fab 23, 2022
-Design digest #80
-Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-
-alt = UI interactions of the week
-Design
-Fab 23, 2022
-UI interactions of the week
-Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-
-alt = The forgotten art of spacing
-Design
-Fab 23, 2022
-The Forgotten Art Of Spacing
-Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-alt = Design digest #79
-Design
-Fab 23, 2022
-Design Digest #79
-Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-
-
+# research
+1. "Optimizing Nature's Blueprint: Comparative Study of Hybrid Algorithms for Terrain Features Extraction"
+   International Journal for Research Trends and Innovation (IJRTI), Vol. 8, Issue 10, pp. 317–324 (Zenodo: 10.5281/zenodo.10101567)
+2. "Space Object Recognition Using Multi-Modal Image Fusion and Stacking of CoAtNets"
+   International Journal for Research in Applied Science and Engineering Technology (IJRASET)
 
 # contact
-
-Contact
-
-Contact Form
-
-Full name
-Email address
-Your Message
-
-Send Message
+Location: Berlin, Germany
+Email: srihithajindam1402@gmail.com
+Phone: +49 176 26053640
+LinkedIn: https://www.linkedin.com/in/srihithajindam/
